@@ -1,3 +1,4 @@
+import Hero from "./components/HeroSection/Hero"
 import Navbar from "./components/Navbar/Navbar"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <main className="text-sm text-neutral-300 antialiased">
         <Navbar></Navbar>
+        <Hero></Hero>
       </main>
 
     </>
