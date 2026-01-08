@@ -44,6 +44,32 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
+            {/* mobile menu */}
+            {isOpen && (
+                <div className="md:hidden bg-neutral-900/60 backdrop-bluer-md border border-neutral-800 p-4 rounded-xl mt-2">
+                    <div className="flex flex-col space-y-4">
+                        <a href="#" className="hover:text-cyan-500">
+                            Product
+                        </a>
+                        <a href="#" className="hover:text-cyan-500">
+                            Pricing
+                        </a>
+                        <a href="#" className="hover:text-cyan-500">
+                            Resources
+                        </a>
+                        <a href="#" className="hover:text-white">
+                            Login
+                        </a>
+                        <a href="#" className="hover:text-neutral-200">Login</a>
+                        <a href="#" className="border border-neutral-700 text-white py-2 rounded-lg px-4 hover:bg-neutral-700 transition">
+                            Get a Demo
+                        </a>
+                        <a href="#" className="bg-blue-600 text-white py-2 rounded-lg px-4 hover:bg-blue-500 transition">
+                            Start Free Trial Now !
+                        </a>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
