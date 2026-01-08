@@ -60,7 +60,6 @@ const Navbar = () => {
                         <a href="#" className="hover:text-white">
                             Login
                         </a>
-                        <a href="#" className="hover:text-neutral-200">Login</a>
                         <a href="#" className="border border-neutral-700 text-white py-2 rounded-lg px-4 hover:bg-neutral-700 transition">
                             Get a Demo
                         </a>

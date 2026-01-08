@@ -1,5 +1,5 @@
-import { HERO_CONTENT } from "../../constants";
-
+import { BRAND_LOGOS, HERO_CONTENT } from "../../constants";
+import heroImage from "../../assets/hero.jpg"
 const Hero = () => {
     return (
         <section className="pt-28 lg:pt-36">
@@ -25,6 +25,19 @@ const Hero = () => {
                     <a href="#" className="inline-block border border-gray-500 hover:border-gray-400  text-white py-3 px-6 rounded-lg font-medium">
                         {HERO_CONTENT.callToAction.secondary}
                     </a>
+                </div>
+                <div className="py-10">
+                    <p className="text-gray-400 text-center mb-8">
+                        {HERO_CONTENT.trustedByText}
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-8 ">
+                        {BRAND_LOGOS.map((logo, index) => (
+                            <img className="h-8" key={index} src={logo.src} alt={logo.alt} />
+                        ))}
+                    </div>
+                </div>
+                <div className="mt-12">
+                    <img src={heroImage} alt="Streamer Saas Interface" className="w-full h-auto rounded-3xl border border-neutral-800 mb-20" />
                 </div>
             </div>
         </section>
