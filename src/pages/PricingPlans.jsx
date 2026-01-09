@@ -44,8 +44,8 @@ const PricingPlans = () => {
                             custom={index}
                             variants={childVariants}
                             className={`p-8 rounded-xl shadow-lg bg-neutral-950 ${plan.popular
-                                    ? "border border-blue-900/80"
-                                    : "border border-neutral-800"
+                                ? "border border-blue-900/80"
+                                : "border border-neutral-800"
                                 }`}
                         >
                             {plan.popular && (
@@ -55,6 +55,14 @@ const PricingPlans = () => {
                                     </span>
                                 </div>
                             )}
+                            <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
+                                {plan.description}
+                            </h3>
+                            <div className="text-2xl lg:text-3xl font-medium mb-6">
+                                {
+                                    plan.price
+                                }
+                            </div>
                         </motion.div>
                     ))}
                 </motion.div>
