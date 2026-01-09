@@ -16,7 +16,7 @@ const Testimonials = () => {
         })
     }
     return (
-        <section id="testimonial">
+        <section id="testimonials">
             <div className="max-w-7xl mx-auto px-4 mt-20">
                 <motion.div className="text-center mb-12 border-t border-neutral-800" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: "easeOut" }}>
                     <h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-neutral-50 via-neutral-300 to-neutral-600 bg-clip-text text-transparent">
@@ -39,7 +39,13 @@ const Testimonials = () => {
                                     {reviews.review}
                                 </p>
                                 <div className="flex items-center mt-4">
-                                    <img src={reviews.image} alt={reviews.alt} />
+                                    <img className="w-12 h-12 rounded-full mr-4" src={reviews.image} alt={reviews.alt} />
+                                    <div className="">
+                                        <p className="text-sm font-bold text-white">
+                                            {reviews.name}
+                                        </p>
+                                        <p className="text-sm text-gray-500">{reviews.title}</p>
+                                    </div>
                                 </div>
                             </motion.div>
                         ))}
