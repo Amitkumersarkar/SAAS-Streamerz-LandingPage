@@ -73,7 +73,7 @@ Section reveal animations
 Smooth transitions
 
 Enhanced user interaction
-----
+
 🚀 Deployment
 
 The project is deployed using Vercel.
@@ -85,7 +85,7 @@ Fork the repository
 Connect it to Vercel
 
 Select Vite + React framework
-----
+
 Deploy 🚀
 
 🧩 Customization
@@ -99,12 +99,12 @@ Animations timing & variants
 Layout sections
 
 CTA buttons and content
-----
+
 🤝 Contributing
 
 Contributions are welcome!
 Open an issue or submit a pull request to improve the project.
-----
+
 📜 License
 
 This project is licensed under the MIT License.
