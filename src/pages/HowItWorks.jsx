@@ -1,5 +1,5 @@
 import { HOW_IT_WORKS_CONTENT } from "../constants";
-import { delay, easeOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HowItWorks = () => {
     const stepVariants = {
