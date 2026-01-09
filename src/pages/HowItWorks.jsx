@@ -13,7 +13,21 @@ const HowItWorks = () => {
                         {HOW_IT_WORKS_CONTENT.sectionDescription}
                     </p>
                 </div>
-
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {HOW_IT_WORKS_CONTENT.steps.map((step, index) => (
+                        <div key={index} className="bg-neutral-900 p-6 rounded-xl shadow-lg flex flex-col justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold mb-4">
+                                    {step.title}
+                                </h3>
+                                <p className="text-neutral-400 mb-4">{step.description}</p>
+                            </div>
+                            <div className="flex justify-center">
+                                <img src={step.imageSrc} alt={step.imageAlt} className="rounded-lg" />
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
