@@ -9,6 +9,9 @@ const HowItWorks = () => {
                     <h2 className="text-3xl lg:text-5x mt-20 tracking-tighter bg-gradient-to-t from-neutral-50 via-neutral-300 to-neutral-600 bg-clip-text text-transparent">
                         {HOW_IT_WORKS_CONTENT.sectionTitle}
                     </h2>
+                    <p className="mt-4 text-neutral-400 max-w-xl mx-auto">
+                        {HOW_IT_WORKS_CONTENT.sectionDescription}
+                    </p>
                 </div>
 
             </div>
