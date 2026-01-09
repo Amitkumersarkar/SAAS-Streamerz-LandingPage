@@ -11,9 +11,7 @@ The project uses Tailwind CSS for rapid UI styling and Framer Motion for smooth 
 
 This project is suitable for SaaS startups, product showcases, and frontend portfolio demonstrations.
 
-🌐 Live Preview
-
-👉 https://thestreamerzz.vercel.app/
+----
 
 Deployed on Vercel, showcasing modern layout design, smooth scroll animations, and responsive components.
 
