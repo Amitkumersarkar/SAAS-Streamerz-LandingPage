@@ -1,3 +1,4 @@
+import Footer from "./components/FooterSection/Footer"
 import Hero from "./components/HeroSection/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import HowItWorks from "./pages/HowItWorks"
@@ -16,6 +17,7 @@ function App() {
         <KeyFeatures></KeyFeatures>
         <PricingPlans></PricingPlans>
         <Testimonials></Testimonials>
+        <Footer></Footer>
       </main>
     </>
   )
