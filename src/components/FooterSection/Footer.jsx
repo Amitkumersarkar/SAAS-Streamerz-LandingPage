@@ -16,15 +16,29 @@ const Footer = () => {
                                 </h3>
                                 <ul className="space-y-2">
                                     {
-                                        section.links.map((link, index) => {
-
-                                        })
+                                        section.links.map((link, index) => (
+                                            <li key={index} className="">
+                                                <a href={link.url} className="">
+                                                    {link.text}
+                                                </a>
+                                            </li>
+                                        ))
                                     }
                                 </ul>
                             </div>
                         ))
                     }
 
+                </div>
+                <div className="my-12 border-t border-neutral-800 pt-8 text-center text-sm text-neutral-500">
+                    <div className="flex justify-between">
+                        <div className="text-xs">
+                            <p className="">{FOOTER_CONTENT.platformsText}</p>
+                        </div>
+                        <div className="text-xs">
+                            <p className="">{FOOTER_CONTENT.copyrightText}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
