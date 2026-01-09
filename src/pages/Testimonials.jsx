@@ -31,8 +31,18 @@ const Testimonials = () => {
                     </p>
                 </motion.div>
 
-                <motion.div className="">
-
+                <motion.div initial="hidden" whileInView="visible" variants={{ visible: { transition: { staggerChildren: 0.2, } } }} className="grid grid-cols-1 md:grid-cols-3 gap-8" >
+                    {
+                        TESTIMONIALS_CONTENT.reviews.map((reviews, index) => (
+                            <motion.div key={index} custom={index} variants={TestimonialVariants} className="mt-10 flex flex-col items-center justify-center overflow-hidden rounded-2xl bg-neutral-900/50 border border-neutral-900 p-10">
+                                <p className="mb-4 text-neutral-200">
+                                    {reviews.review}
+                                </p>
+                                <div className="flex items-center mt-4">
+                                    <img src={reviews.image} alt={reviews.alt} />
+                                </div>
+                            </motion.div>
+                        ))}
                 </motion.div>
             </div>
         </section>
