@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar"
 import HowItWorks from "./pages/HowItWorks"
 import KeyFeatures from "./pages/KeyFeatures"
 import PricingPlans from "./pages/PricingPlans"
+import Testimonials from "./pages/Testimonials"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <HowItWorks></HowItWorks>
         <KeyFeatures></KeyFeatures>
         <PricingPlans></PricingPlans>
+        <Testimonials></Testimonials>
       </main>
     </>
   )
