@@ -34,6 +34,7 @@ const Footer = () => {
                     <div className="flex justify-between">
                         <div className="text-xs">
                             <p className="">{FOOTER_CONTENT.platformsText}</p>
+                            <p className="pt-2">Developed By : Amit Sarkar</p>
                         </div>
                         <div className="text-xs">
                             <p className="">{FOOTER_CONTENT.copyrightText}</p>
