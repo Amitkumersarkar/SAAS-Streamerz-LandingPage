@@ -40,7 +40,7 @@ Vercel – Deployment & hosting
 ✔ Clean & reusable React components
 ✔ Fast performance with Vite
 ✔ Live deployment on Vercel
-----
+
 📂 Installation & Setup
 
 Run the project locally:
@@ -56,7 +56,7 @@ npm install
 
 # Start the development server
 npm run dev
-----
+
 🎨 Styling & Animations
 Tailwind CSS
 
