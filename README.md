@@ -47,10 +47,13 @@ Getting Started
 Run the project locally:
 
 git clone https://github.com/Amitkumersarkar/SAAS-Streamerz-LandingPage.git
-cd SAAS-Streamerz-LandingPage
-npm install
-npm run dev
 
+cd SAAS-Streamerz-LandingPage
+
+npm install
+
+npm run dev
+---
 Customization
 
 You can easily update:
